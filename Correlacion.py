@@ -80,67 +80,77 @@ def correlacion(data1, data2,promedio1,promedio2):
     return cor
 
 #Leer el archivo csv
-df=pd.read_csv("DATAGRAFICO.csv")
-semana=df["Semana"]
-dia=df["Dia"]
-personas=df["Personas"]
-mochilas=df["Mochilas"]
+df=pd.read_csv("DATAGRAFICO.csv") #almacenamos en un dataframe los datos para generar los graficos
+semana=df["Semana"] #un data frame para las semanas
+dia=df["Dia"] #un dataframe para los dias
+personas=df["Personas"] #un dataframe para las personas
+mochilas=df["Mochilas"] #un dataframe para las mochilas
 
+#semana1 filtrada son un dataframe donde se juntan todos los datos que correspondan al lunes de la semana 1
 filtered_semana1 = df[(df['Semana'] == "semana 1 ") & (df['Dia'] == 'Lunes')]
-personas_list1 = filtered_semana1['Personas'].tolist()
-mochilas_list1 = filtered_semana1['Mochilas'].tolist()
+personas_list1 = filtered_semana1['Personas'].tolist() #enlistamos todas las personas del lunes de la semana 1
+mochilas_list1 = filtered_semana1['Mochilas'].tolist() #enlistamos todas las mochilas del lunes de la semana 1
 
-
+#datos del lunes de la semana 2 en un dataframe...
 filtered_semana2 = df[(df['Semana'] == 'semana 2') & (df['Dia'] == 'Lunes')]
-personas_list2 = filtered_semana2['Personas'].tolist()
-mochilas_list2 = filtered_semana2['Mochilas'].tolist()
+personas_list2 = filtered_semana2['Personas'].tolist() #lista para personas
+mochilas_list2 = filtered_semana2['Mochilas'].tolist() #lista para mochilas
 
-
+#datos del lunes de la semana 3 en un dataframe...
 filtered_semana3 = df[(df['Semana'] == 'semana 3') & (df['Dia'] == 'Lunes')]
-personas_list3 = filtered_semana3['Personas'].tolist()
-mochilas_list3 = filtered_semana3['Mochilas'].tolist()
+personas_list3 = filtered_semana3['Personas'].tolist() #lista para personas
+mochilas_list3 = filtered_semana3['Mochilas'].tolist() #lista para mochilas
 
-
+#datos del lunes de la semana4 en un dataframe...
 filtered_semana4 = df[(df['Semana'] == 'semana 4') & (df['Dia'] == 'Lunes')]
-personas_list4 = filtered_semana4['Personas'].tolist()
-mochilas_list4 = filtered_semana4['Mochilas'].tolist()
+personas_list4 = filtered_semana4['Personas'].tolist() #lista para personas
+mochilas_list4 = filtered_semana4['Mochilas'].tolist() #lista para mochilas
 
 
 hora=[]
-# Usar un bucle for para agregar elementos a la lista
+#con un ciclo for, creamos el eje x del mismo tamaño para mostrar los datos en una grafica.
 for i in range(len(mochilas_list1)):
     hora.append(i)
-plt.plot(hora, mochilas_list1, label="Semana1 Lunes", marker='o')
+    
+#se grafican los datos comparando dos datos (mochilas1 vs mochilas2 )
+plt.plot(hora, mochilas_list1, label="Semana1 Lunes", marker='o') 
 plt.plot(hora, mochilas_list2, label="Semana2 Lunes", marker='s')
-
 plt.xlabel('Horas')
 plt.ylabel('Cantidad')
 plt.title('Grafico de el UAQibus')
 plt.legend()
 plt.grid(True)
 plt.show()
-#Esta forma de hacer el plot genera una grafica con 2 dato scomparativos
-mochilas_list1.sort()
+
+#=============================================================
+#proceso para sacar las estadísticas.
+#=============================================================
+#ordenamos las listas
+mochilas_list1.sort() 
 mochilas_list2.sort()
 mochilas_list3.sort()
 mochilas_list4.sort()
+#guardamos el promedio de cada lista en una nueva variable
 promedio1=promedio(mochilas_list1)
 promedio2=promedio(mochilas_list2)
 promedio3=promedio(mochilas_list3)
 promedio4=promedio(mochilas_list4)
+#guardamos la mediana de cada lista en una nueva variable
 mediana1=mediana(mochilas_list1)
 mediana2=mediana(mochilas_list2)
 mediana3=mediana(mochilas_list3)
 mediana4=mediana(mochilas_list4)
+#guardamos la varianza de cada lista en una variable
 varianza1=varianza(mochilas_list1,promedio1)
 varianza2=varianza(mochilas_list2,promedio2)
 varianza3=varianza(mochilas_list3,promedio3)
 varianza4=varianza(mochilas_list4,promedio4)
+#guardamos la desviación estandar de cada grupo de datos en una variable
 desv1=desviacionEstandar(varianza1)
 desv2=desviacionEstandar(varianza2)
 desv3=desviacionEstandar(varianza3)
 desv4=desviacionEstandar(varianza4)
-
+#
 correla=correlacion(mochilas_list1,mochilas_list2,promedio1,promedio2)
 print(correla)
 r=(correla/(desv1*desv2))
