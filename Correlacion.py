@@ -87,14 +87,23 @@ personas=df["Personas"] #un dataframe para las personas
 mochilas=df["Mochilas"] #un dataframe para las mochilas
 
 #semana1 filtrada son un dataframe donde se juntan todos los datos que correspondan al lunes de la semana 1
-filtered_semana1 = df[(df['Semana'] == "semana 1 ") & (df['Dia'] == 'Lunes')]
+filtered_semana1 = df[(df['Semana'] == "semana 1 ") & (df['Dia'] == 'Jueves')]
 personas_list1 = filtered_semana1['Personas'].tolist() #enlistamos todas las personas del lunes de la semana 1
 mochilas_list1 = filtered_semana1['Mochilas'].tolist() #enlistamos todas las mochilas del lunes de la semana 1
 
-#datos del lunes de la semana 2 en un dataframe...
-filtered_semana2 = df[(df['Semana'] == 'semana 2') & (df['Dia'] == 'Lunes')]
-personas_list2 = filtered_semana2['Personas'].tolist() #lista para personas
-mochilas_list2 = filtered_semana2['Mochilas'].tolist() #lista para mochilas
+# Calcula la longitud de cada sublista
+longitud_sublista = len(mochilas_list1) // 3
+resto = len(mochilas_list1) % 3
+
+# Divide la lista en tres sublistas
+mochilas_horario1 = mochilas_list1[:longitud_sublista + (1 if resto > 0 else 0)]
+mochilas_horario2 = mochilas_list1[longitud_sublista + (1 if resto > 0 else 0): 2 * longitud_sublista + (2 if resto > 1 else 0)]
+mochilas_horario3 = mochilas_list1[2 * longitud_sublista + (2 if resto > 1 else 0):]
+
+#datos del lunes de la semana 3 en un dataframe...
+filtered_semana2 = df[(df['Semana'] == "semana 1 ") & (df['Dia'] == 'Martes')]
+personas_list2 = filtered_semana2['Personas'].tolist() #enlistamos todas las personas del martes de la semana 1
+mochilas_list2 = filtered_semana2['Mochilas'].tolist() #enlistamos todas las mochilas del martes de la semana 1
 
 #datos del lunes de la semana 3 en un dataframe...
 filtered_semana3 = df[(df['Semana'] == 'semana 3') & (df['Dia'] == 'Lunes')]
@@ -109,12 +118,12 @@ mochilas_list4 = filtered_semana4['Mochilas'].tolist() #lista para mochilas
 
 hora=[]
 #con un ciclo for, creamos el eje x del mismo tamaño para mostrar los datos en una grafica.
-for i in range(len(mochilas_list1)):
+for i in range(len(mochilas_horario1)):
     hora.append(i)
     
 #se grafican los datos comparando dos datos (mochilas1 vs mochilas2 )
-plt.plot(hora, mochilas_list1, label="Semana1 Lunes", marker='o') 
-plt.plot(hora, mochilas_list2, label="Semana2 Lunes", marker='s')
+plt.plot(hora, mochilas_horario1, label="Semana1 horario 1", marker='o') 
+plt.plot(hora, mochilas_horario2, label="Semana1 horario 2", marker='s')
 plt.xlabel('Horas')
 plt.ylabel('Cantidad')
 plt.title('Grafico de el UAQibus')
@@ -150,9 +159,10 @@ desv1=desviacionEstandar(varianza1)
 desv2=desviacionEstandar(varianza2)
 desv3=desviacionEstandar(varianza3)
 desv4=desviacionEstandar(varianza4)
-#
+#sacamos la correlación lineal entre dos grupos de datos y la almacenamos en la variable correla 
 correla=correlacion(mochilas_list1,mochilas_list2,promedio1,promedio2)
-print(correla)
+print(f'la correlación lineal obtenida es de {correla}')
+#obtenemos la relacion lineal y la almacenamos en la variable r
 r=(correla/(desv1*desv2))
-print(r)
+print(f'la relacion lineal es de{r}')
 
