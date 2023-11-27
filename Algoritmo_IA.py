@@ -147,7 +147,7 @@ for i in range(len(n_casosY)):
 probabilidadTotal = 0
 for probabilidad in Probabilidades_Ys:
     probabilidadTotal += probabilidad
-print(f'la probabilidad total es: {probabilidadTotal}')
+#print(f'la probabilidad total es: {probabilidadTotal}')
 #obtenemos el procentaje de la probabilidad y1 y y2
 porcentajes = []
 for i in range(len(Probabilidades_Ys)):
@@ -155,4 +155,9 @@ for i in range(len(Probabilidades_Ys)):
     porcentajeProbabilidad = Probabilidades_Ys[i] / probabilidadTotal
     porcentajes.append(porcentajeProbabilidad)
     porcentajeProbabilidad = 0
-print(f'La probabilidad con los parametros {casosX} es de...\n {porcentajes[0]*100}% a que sea {casosY[0]} y {porcentajes[1]*100}% a que sea {casosY[1]}')
+    
+if porcentajes[0] > porcentajes[1]:
+    print(f'{casosY[0]}')
+else:
+    print(f'{casosY[1]}')
+#print(f'La probabilidad con los parametros {casosX} es de...\n {porcentajes[0]*100}% a que sea {casosY[0]} y {porcentajes[1]*100}% a que sea {casosY[1]}')
