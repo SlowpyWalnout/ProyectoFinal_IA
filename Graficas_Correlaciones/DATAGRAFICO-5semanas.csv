@@ -1,0 +1,421 @@
+Semana,Dia,Hora,Mochilas,Personas,Cant_UAQuibuses,deberias ir?
+semana 1 ,Lunes,02:30,85,47,1,no
+semana 1 ,Lunes,02:35,97,65,1,no
+semana 1 ,Lunes,02:40,107,79,1,no
+semana 1 ,Lunes,02:45,112,87,1,no
+semana 1 ,Lunes,02:50,112,87,1,no
+semana 1 ,Lunes,02:55,112,87,1,no
+semana 1 ,Lunes,03:00,112,87,2,si
+semana 1 ,Lunes,04:30,45,45,2,si
+semana 1 ,Lunes,04:35,52,52,2,si
+semana 1 ,Lunes,04:40,63,63,2,si
+semana 1 ,Lunes,04:45,69,69,2,si
+semana 1 ,Lunes,04:50,76,76,2,si
+semana 1 ,Lunes,04:55,84,84,2,si
+semana 1 ,Lunes,05:00,88,84,2,si
+semana 1 ,Lunes,06:30,20,15,2,si
+semana 1 ,Lunes,06:35,23,18,2,si
+semana 1 ,Lunes,06:40,33,25,2,si
+semana 1 ,Lunes,06:45,43,33,2,si
+semana 1 ,Lunes,06:50,45,35,2,si
+semana 1 ,Lunes,06:55,48,38,2,si
+semana 1 ,Lunes,07:00,56,46,2,si
+semana 1 ,Martes,02:30,90,100,2,si
+semana 1 ,Martes,02:35,90,100,2,si
+semana 1 ,Martes,02:40,90,105,2,si
+semana 1 ,Martes,02:45,93,114,2,si
+semana 1 ,Martes,02:50,94,114,2,si
+semana 1 ,Martes,02:55,98,114,2,si
+semana 1 ,Martes,03:00,98,117,2,si
+semana 1 ,Martes,04:30,60,23,2,si
+semana 1 ,Martes,04:35,64,29,2,si
+semana 1 ,Martes,04:40,76,49,2,si
+semana 1 ,Martes,04:45,80,64,2,si
+semana 1 ,Martes,04:50,84,78,2,si
+semana 1 ,Martes,04:55,94,92,2,si
+semana 1 ,Martes,05:00,94,99,2,si
+semana 1 ,Martes,06:30,50,44,2,si
+semana 1 ,Martes,06:35,55,49,2,si
+semana 1 ,Martes,06:40,66,62,2,si
+semana 1 ,Martes,06:45,67,63,2,si
+semana 1 ,Martes,06:50,74,73,2,si
+semana 1 ,Martes,06:55,76,75,2,si
+semana 1 ,Martes,07:00,77,80,2,si
+semana 1 ,Miercoles,02:30,116,46,1,no
+semana 1 ,Miercoles,02:35,118,49,1,no
+semana 1 ,Miercoles,02:40,126,71,1,no
+semana 1 ,Miercoles,02:45,130,95,1,no
+semana 1 ,Miercoles,02:50,134,104,1,no
+semana 1 ,Miercoles,02:55,135,110,1,no
+semana 1 ,Miercoles,03:00,135,110,1,no
+semana 1 ,Miercoles,04:30,48,45,2,si
+semana 1 ,Miercoles,04:35,53,50,2,si
+semana 1 ,Miercoles,04:40,67,64,2,si
+semana 1 ,Miercoles,04:45,72,69,2,si
+semana 1 ,Miercoles,04:50,75,72,2,si
+semana 1 ,Miercoles,04:55,93,90,2,si
+semana 1 ,Miercoles,05:00,99,96,2,si
+semana 1 ,Miercoles,06:30,26,45,2,si
+semana 1 ,Miercoles,06:35,28,50,2,si
+semana 1 ,Miercoles,06:40,34,64,2,si
+semana 1 ,Miercoles,06:45,41,69,2,si
+semana 1 ,Miercoles,06:50,48,72,2,si
+semana 1 ,Miercoles,06:55,59,90,2,si
+semana 1 ,Miercoles,07:00,73,96,2,si
+semana 1 ,Jueves,02:30,90,95,2,si
+semana 1 ,Jueves,02:35,93,95,2,si
+semana 1 ,Jueves,02:40,93,96,2,si
+semana 1 ,Jueves,02:45,94,97,2,si
+semana 1 ,Jueves,02:50,96,102,2,si
+semana 1 ,Jueves,02:55,96,102,2,si
+semana 1 ,Jueves,03:00,96,102,2,si
+semana 1 ,Jueves,04:30,38,19,2,si
+semana 1 ,Jueves,04:35,40,36,2,si
+semana 1 ,Jueves,04:40,47,43,2,si
+semana 1 ,Jueves,04:45,55,53,2,si
+semana 1 ,Jueves,04:50,65,76,2,si
+semana 1 ,Jueves,04:55,74,79,2,si
+semana 1 ,Jueves,05:00,74,79,2,si
+semana 1 ,Jueves,06:30,32,32,1,si
+semana 1 ,Jueves,06:35,43,43,1,si
+semana 1 ,Jueves,06:40,48,48,1,si
+semana 1 ,Jueves,06:45,52,52,1,no
+semana 1 ,Jueves,06:50,57,57,1,no
+semana 1 ,Jueves,06:55,63,63,1,no
+semana 1 ,Jueves,07:00,65,65,1,no
+semana 2,Lunes,02:30,85,47,1,no
+semana 2,Lunes,02:35,97,65,1,no
+semana 2,Lunes,02:40,107,79,1,no
+semana 2,Lunes,02:45,112,87,1,no
+semana 2,Lunes,02:50,112,87,1,no
+semana 2,Lunes,02:55,112,87,1,no
+semana 2,Lunes,03:00,112,87,1,no
+semana 2,Lunes,04:30,41,20,2,si
+semana 2,Lunes,04:35,47,26,2,si
+semana 2,Lunes,04:40,50,24,2,si
+semana 2,Lunes,04:45,54,28,2,si
+semana 2,Lunes,04:50,60,34,2,si
+semana 2,Lunes,04:55,70,55,2,si
+semana 2,Lunes,05:00,70,69,2,si
+semana 2,Lunes,06:30,28,17,2,si
+semana 2,Lunes,06:35,35,24,2,si
+semana 2,Lunes,06:40,39,33,2,si
+semana 2,Lunes,06:45,45,37,2,si
+semana 2,Lunes,06:50,56,42,2,si
+semana 2,Lunes,06:55,65,53,2,si
+semana 2,Lunes,07:00,71,67,2,si
+semana 2,Martes,02:30,71,46,2,si
+semana 2,Martes,02:35,71,46,2,si
+semana 2,Martes,02:40,71,56,2,si
+semana 2,Martes,02:45,72,58,2,si
+semana 2,Martes,02:50,73,65,2,si
+semana 2,Martes,02:55,73,65,2,si
+semana 2,Martes,03:00,73,65,2,si
+semana 2,Martes,04:30,49,25,2,si
+semana 2,Martes,04:35,70,47,2,si
+semana 2,Martes,04:40,78,52,2,si
+semana 2,Martes,04:45,84,68,2,si
+semana 2,Martes,04:50,87,79,2,si
+semana 2,Martes,04:55,95,98,2,si
+semana 2,Martes,05:00,95,98,2,si
+semana 2,Martes,06:30,58,49,2,si
+semana 2,Martes,06:35,63,56,2,si
+semana 2,Martes,06:40,67,60,2,si
+semana 2,Martes,06:45,70,62,2,si
+semana 2,Martes,06:50,70,68,2,si
+semana 2,Martes,06:55,72,71,2,si
+semana 2,Martes,07:00,72,71,2,si
+semana 2,Miercoles,02:30,92,47,2,si
+semana 2,Miercoles,02:35,97,64,2,si
+semana 2,Miercoles,02:40,100,74,2,si
+semana 2,Miercoles,02:45,103,91,2,si
+semana 2,Miercoles,02:50,97,92,2,si
+semana 2,Miercoles,02:55,103,103,2,si
+semana 2,Miercoles,03:00,103,103,2,si
+semana 2,Miercoles,04:30,55,30,2,si
+semana 2,Miercoles,04:35,58,35,2,si
+semana 2,Miercoles,04:40,71,43,2,si
+semana 2,Miercoles,04:45,77,54,2,si
+semana 2,Miercoles,04:50,84,75,2,si
+semana 2,Miercoles,04:55,89,86,2,si
+semana 2,Miercoles,05:00,89,89,2,si
+semana 2,Miercoles,06:30,30,22,1,si
+semana 2,Miercoles,06:35,33,25,1,si
+semana 2,Miercoles,06:40,39,30,1,si
+semana 2,Miercoles,06:45,51,46,1,no
+semana 2,Miercoles,06:50,54,49,1,no
+semana 2,Miercoles,06:55,62,57,1,no
+semana 2,Miercoles,07:00,68,68,1,no
+semana 2,Jueves,02:30,42,28,2,si
+semana 2,Jueves,02:35,46,32,2,si
+semana 2,Jueves,02:40,54,46,2,si
+semana 2,Jueves,02:45,61,59,2,si
+semana 2,Jueves,02:50,78,72,2,si
+semana 2,Jueves,02:55,78,72,2,si
+semana 2,Jueves,03:00,78,72,2,si
+semana 2,Jueves,04:30,62,25,2,si
+semana 2,Jueves,04:35,70,34,2,si
+semana 2,Jueves,04:40,75,41,2,si
+semana 2,Jueves,04:45,79,53,2,si
+semana 2,Jueves,04:50,86,67,2,si
+semana 2,Jueves,04:55,94,91,2,si
+semana 2,Jueves,05:00,94,91,2,si
+semana 2,Jueves,06:30,36,33,1,si
+semana 2,Jueves,06:35,37,34,1,si
+semana 2,Jueves,06:40,41,38,1,si
+semana 2,Jueves,06:45,49,46,1,si
+semana 2,Jueves,06:50,52,49,1,no
+semana 2,Jueves,06:55,56,53,1,no
+semana 2,Jueves,07:00,58,55,1,no
+semana 3,Lunes,02:30,85,47,2,si
+semana 3,Lunes,02:35,97,65,2,si
+semana 3,Lunes,02:40,107,79,2,si
+semana 3,Lunes,02:45,112,87,2,si
+semana 3,Lunes,02:50,112,87,2,si
+semana 3,Lunes,02:55,112,87,2,si
+semana 3,Lunes,03:00,112,87,2,si
+semana 3,Lunes,04:30,50,32,2,si
+semana 3,Lunes,04:35,58,36,2,si
+semana 3,Lunes,04:40,65,48,2,si
+semana 3,Lunes,04:45,71,56,2,si
+semana 3,Lunes,04:50,78,67,2,si
+semana 3,Lunes,04:55,84,81,2,si
+semana 3,Lunes,05:00,92,89,2,si
+semana 3,Lunes,06:30,29,20,2,si
+semana 3,Lunes,06:35,29,20,2,si
+semana 3,Lunes,06:40,29,20,2,si
+semana 3,Lunes,06:45,29,20,2,si
+semana 3,Lunes,06:50,29,20,2,si
+semana 3,Lunes,06:55,29,20,2,si
+semana 3,Lunes,07:00,29,20,2,si
+semana 3,Martes,02:30,90,48,2,si
+semana 3,Martes,02:35,92,54,2,si
+semana 3,Martes,02:40,101,75,2,si
+semana 3,Martes,02:45,110,90,2,si
+semana 3,Martes,02:50,121,118,2,si
+semana 3,Martes,02:55,123,123,2,si
+semana 3,Martes,03:00,123,123,2,si
+semana 3,Martes,04:30,55,31,2,si
+semana 3,Martes,04:35,53,31,2,si
+semana 3,Martes,04:40,58,42,2,si
+semana 3,Martes,04:45,72,57,2,si
+semana 3,Martes,04:50,80,66,2,si
+semana 3,Martes,04:55,80,66,2,si
+semana 3,Martes,05:00,80,66,2,si
+semana 3,Martes,06:30,47,34,2,si
+semana 3,Martes,06:35,56,47,2,si
+semana 3,Martes,06:40,62,53,2,si
+semana 3,Martes,06:45,64,57,2,si
+semana 3,Martes,06:50,67,60,2,si
+semana 3,Martes,06:55,69,66,2,si
+semana 3,Martes,07:00,73,71,2,si
+semana 3,Miercoles,02:30,87,46,2,si
+semana 3,Miercoles,02:35,98,50,2,si
+semana 3,Miercoles,02:40,106,60,2,si
+semana 3,Miercoles,02:45,113,87,2,si
+semana 3,Miercoles,02:50,120,106,2,si
+semana 3,Miercoles,02:55,120,110,2,si
+semana 3,Miercoles,03:00,120,110,2,si
+semana 3,Miercoles,04:30,40,27,2,si
+semana 3,Miercoles,04:35,45,31,2,si
+semana 3,Miercoles,04:40,47,32,2,si
+semana 3,Miercoles,04:45,52,39,2,si
+semana 3,Miercoles,04:50,56,48,2,si
+semana 3,Miercoles,04:55,60,58,2,si
+semana 3,Miercoles,05:00,64,64,2,si
+semana 3,Miercoles,06:30,18,12,1,si
+semana 3,Miercoles,06:35,25,17,1,si
+semana 3,Miercoles,06:40,25,17,1,si
+semana 3,Miercoles,06:45,44,34,1,si
+semana 3,Miercoles,06:50,50,45,1,no
+semana 3,Miercoles,06:55,55,53,1,no
+semana 3,Miercoles,07:00,60,58,1,no
+semana 3,Jueves,02:30,56,26,2,si
+semana 3,Jueves,02:35,57,30,2,si
+semana 3,Jueves,02:40,70,45,2,si
+semana 3,Jueves,02:45,74,55,2,si
+semana 3,Jueves,02:50,79,61,2,si
+semana 3,Jueves,02:55,79,61,2,si
+semana 3,Jueves,03:00,79,61,2,si
+semana 3,Jueves,04:30,67,56,2,si
+semana 3,Jueves,04:35,73,57,2,si
+semana 3,Jueves,04:40,78,67,2,si
+semana 3,Jueves,04:45,83,83,2,si
+semana 3,Jueves,04:50,84,65,2,si
+semana 3,Jueves,04:55,85,72,2,si
+semana 3,Jueves,05:00,85,72,2,si
+semana 3,Jueves,06:30,19,18,1,si
+semana 3,Jueves,06:35,25,22,1,si
+semana 3,Jueves,06:40,25,22,1,si
+semana 3,Jueves,06:45,33,31,1,si
+semana 3,Jueves,06:50,41,39,1,no
+semana 3,Jueves,06:55,45,43,1,no
+semana 3,Jueves,07:00,47,45,1,no
+semana 4,Lunes,02:30,90,19,2,si
+semana 4,Lunes,02:35,101,44,2,si
+semana 4,Lunes,02:40,104,50,2,si
+semana 4,Lunes,02:45,120,67,2,si
+semana 4,Lunes,02:50,121,95,2,si
+semana 4,Lunes,02:55,121,95,2,si
+semana 4,Lunes,03:00,121,95,2,si
+semana 4,Lunes,04:30,34,25,2,si
+semana 4,Lunes,04:35,42,33,2,si
+semana 4,Lunes,04:40,51,42,2,si
+semana 4,Lunes,04:45,60,51,2,si
+semana 4,Lunes,04:50,66,60,2,si
+semana 4,Lunes,04:55,74,74,2,si
+semana 4,Lunes,05:00,79,76,2,si
+semana 4,Lunes,06:30,35,18,1,si
+semana 4,Lunes,06:35,37,20,1,si
+semana 4,Lunes,06:40,42,25,1,si
+semana 4,Lunes,06:45,45,28,1,si
+semana 4,Lunes,06:50,53,36,1,no
+semana 4,Lunes,06:55,63,46,1,no
+semana 4,Lunes,07:00,67,67,1,no
+semana 4,Martes,02:30,115,50,2,si
+semana 4,Martes,02:35,115,54,2,si
+semana 4,Martes,02:40,116,61,2,si
+semana 4,Martes,02:45,120,67,2,si
+semana 4,Martes,02:50,126,94,2,si
+semana 4,Martes,02:55,127,96,2,si
+semana 4,Martes,03:00,127,121,2,si
+semana 4,Martes,04:30,49,24,2,si
+semana 4,Martes,04:35,67,32,2,si
+semana 4,Martes,04:40,73,46,2,si
+semana 4,Martes,04:45,89,60,2,si
+semana 4,Martes,04:50,90,78,2,si
+semana 4,Martes,04:55,98,81,2,si
+semana 4,Martes,05:00,98,81,2,si
+semana 4,Martes,06:30,29,25,1,si
+semana 4,Martes,06:35,33,29,1,si
+semana 4,Martes,06:40,34,30,1,si
+semana 4,Martes,06:45,35,35,1,si
+semana 4,Martes,06:50,38,39,1,no
+semana 4,Martes,06:55,43,44,1,no
+semana 4,Martes,07:00,47,48,1,no
+semana 4,Miercoles,02:30,88,31,2,si
+semana 4,Miercoles,02:35,88,32,2,si
+semana 4,Miercoles,02:40,94,52,2,si
+semana 4,Miercoles,02:45,100,65,2,si
+semana 4,Miercoles,02:50,100,81,2,si
+semana 4,Miercoles,02:55,111,100,2,si
+semana 4,Miercoles,03:00,111,100,2,si
+semana 4,Miercoles,04:30,51,33,1,no
+semana 4,Miercoles,04:35,60,40,1,no
+semana 4,Miercoles,04:40,65,49,1,no
+semana 4,Miercoles,04:45,76,58,1,no
+semana 4,Miercoles,04:50,80,71,1,no
+semana 4,Miercoles,04:55,89,89,1,no
+semana 4,Miercoles,05:00,89,89,1,no
+semana 4,Miercoles,06:30,37,25,2,si
+semana 4,Miercoles,06:35,37,26,2,si
+semana 4,Miercoles,06:40,42,32,2,si
+semana 4,Miercoles,06:45,45,33,2,si
+semana 4,Miercoles,06:50,45,36,2,si
+semana 4,Miercoles,06:55,53,53,2,si
+semana 4,Miercoles,07:00,58,58,2,si
+semana 4,Jueves,02:30,76,28,2,si
+semana 4,Jueves,02:35,74,33,2,si
+semana 4,Jueves,02:40,81,37,2,si
+semana 4,Jueves,02:45,79,56,2,si
+semana 4,Jueves,02:50,71,86,2,si
+semana 4,Jueves,02:55,71,86,2,si
+semana 4,Jueves,03:00,71,86,2,si
+semana 4,Jueves,04:30,73,38,2,si
+semana 4,Jueves,04:35,82,52,2,si
+semana 4,Jueves,04:40,91,54,2,si
+semana 4,Jueves,04:45,93,61,2,si
+semana 4,Jueves,04:50,96,65,2,si
+semana 4,Jueves,04:55,99,95,2,si
+semana 4,Jueves,05:00,99,95,2,si
+semana 4,Jueves,06:30,18,14,1,si
+semana 4,Jueves,06:35,20,16,1,si
+semana 4,Jueves,06:40,25,21,1,si
+semana 4,Jueves,06:45,26,22,1,si
+semana 4,Jueves,06:50,29,25,1,no
+semana 4,Jueves,06:55,36,32,1,no
+semana 4,Jueves,07:00,38,34,1,no
+semana 5,Lunes,02:30,109,39,2,
+semana 5,Lunes,02:35,109,44,2,
+semana 5,Lunes,02:40,118,70,2,
+semana 5,Lunes,02:45,123,79,2,
+semana 5,Lunes,02:50,127,85,2,
+semana 5,Lunes,02:55,127,106,2,
+semana 5,Lunes,03:00,127,127,2,
+semana 5,Lunes,04:30,53,38,1,
+semana 5,Lunes,04:35,56,41,1,
+semana 5,Lunes,04:40,64,49,1,
+semana 5,Lunes,04:45,71,55,1,
+semana 5,Lunes,04:50,77,65,1,
+semana 5,Lunes,04:55,87,74,1,
+semana 5,Lunes,05:00,87,74,1,
+semana 5,Lunes,06:30,25,23,1,
+semana 5,Lunes,06:35,30,27,1,
+semana 5,Lunes,06:40,38,36,1,
+semana 5,Lunes,06:45,44,41,1,
+semana 5,Lunes,06:50,48,45,1,
+semana 5,Lunes,06:55,52,49,1,
+semana 5,Lunes,07:00,58,52,1,
+semana 5,Martes,02:30,77,24,2,
+semana 5,Martes,02:35,77,32,2,
+semana 5,Martes,02:40,78,40,2,
+semana 5,Martes,02:45,90,64,2,
+semana 5,Martes,02:50,91,79,2,
+semana 5,Martes,02:55,93,87,2,
+semana 5,Martes,03:00,93,90,2,
+semana 5,Martes,04:30,34,34,1,
+semana 5,Martes,04:35,73,40,1,
+semana 5,Martes,04:40,72,43,1,
+semana 5,Martes,04:45,79,50,1,
+semana 5,Martes,04:50,85,60,1,
+semana 5,Martes,04:55,96,77,1,
+semana 5,Martes,05:00,82,82,1,
+semana 5,Martes,06:30,34,13,1,
+semana 5,Martes,06:35,34,17,1,
+semana 5,Martes,06:40,34,17,1,
+semana 5,Martes,06:45,34,17,1,
+semana 5,Martes,06:50,42,31,1,
+semana 5,Martes,06:55,56,47,1,
+semana 5,Martes,07:00,56,56,1,
+semana 5,Miercoles,02:30,67,16,1,
+semana 5,Miercoles,02:35,77,25,1,
+semana 5,Miercoles,02:40,77,77,1,
+semana 5,Miercoles,02:45,77,77,1,
+semana 5,Miercoles,02:50,77,77,1,
+semana 5,Miercoles,02:55,77,77,1,
+semana 5,Miercoles,03:00,77,77,1,
+semana 5,Miercoles,04:30,25,19,1,
+semana 5,Miercoles,04:35,30,24,1,
+semana 5,Miercoles,04:40,38,31,1,
+semana 5,Miercoles,04:45,46,39,1,
+semana 5,Miercoles,04:50,51,45,1,
+semana 5,Miercoles,04:55,62,53,1,
+semana 5,Miercoles,05:00,62,62,1,
+semana 5,Miercoles,06:30,21,20,1,
+semana 5,Miercoles,06:35,25,23,1,
+semana 5,Miercoles,06:40,30,28,1,
+semana 5,Miercoles,06:45,32,30,1,
+semana 5,Miercoles,06:50,40,38,1,
+semana 5,Miercoles,06:55,46,45,1,
+semana 5,Miercoles,07:00,54,53,1,
+semana 5,Jueves,02:30,0,0,0,
+semana 5,Jueves,02:35,0,0,0,
+semana 5,Jueves,02:40,0,0,0,
+semana 5,Jueves,02:45,0,0,0,
+semana 5,Jueves,02:50,0,0,0,
+semana 5,Jueves,02:55,0,0,0,
+semana 5,Jueves,03:00,0,0,0,
+semana 5,Jueves,04:30,29,9,2,
+semana 5,Jueves,04:35,36,15,2,
+semana 5,Jueves,04:40,45,23,2,
+semana 5,Jueves,04:45,57,31,2,
+semana 5,Jueves,04:50,78,48,2,
+semana 5,Jueves,04:55,86,75,2,
+semana 5,Jueves,05:00,93,93,2,
+semana 5,Jueves,06:30,24,27,1,
+semana 5,Jueves,06:35,30,28,1,
+semana 5,Jueves,06:40,33,30,1,
+semana 5,Jueves,06:45,31,34,1,
+semana 5,Jueves,06:50,32,34,1,
+semana 5,Jueves,06:55,36,34,1,
+semana 5,Jueves,07:00,36,36,1,
