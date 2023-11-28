@@ -5,6 +5,7 @@ Este es el repo del proyecto final del taller de aplicaciones de la inteligencia
 Dentro de la carpeta existe un archivo.py el cual se encarga de realizar el proceso de entrenamiento y le pregunta al usuario bajo qué parametros "x" quiere obtener una salida "y", el código depende únicamente de dos cosas detro de la lógica que hasta el momento no han sido automatizadas...
 
 -Cargar el documento con la ruta de acceso del mismo en el código.
+
 -Numero de grupos en los que separa los parámetros diversos (para este problema, actualmente hay que modificar la variable dentro del codigo para cada dataset, en este caso ya está adecuado para el dataset de los uaquibuses.). 
 
 **Sobre el dataset**
